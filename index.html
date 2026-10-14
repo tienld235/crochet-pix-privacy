@@ -1,0 +1,264 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Privacy Policy — Crochet Pix</title>
+<style>
+  :root{
+    --ink:#2A211B; --muted:#7A6E66; --line:#EADFD4; --card:#FFFFFF; --bg:#FBF6EF;
+    --top1:#E06A4A; --top2:#F0B140; --accent:#C4502F;
+  }
+  *{box-sizing:border-box}
+  body{margin:0; background:var(--bg); color:var(--ink);
+    font:16px/1.7 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;}
+  header{background:linear-gradient(135deg,var(--top1),var(--top2)); padding:36px 20px 44px; text-align:center}
+  header svg{width:64px; height:64px}
+  header h1{margin:8px 0 4px; font-size:28px; letter-spacing:.5px; color:#FFFFFF}
+  header p{margin:0; color:#FFF4E6; font-size:14px}
+  main{max-width:760px; margin:-24px auto 60px; padding:0 18px}
+  /* link dài (https://policies.google.com/…) không có chỗ ngắt → đẩy cả thẻ rộng quá màn điện thoại */
+  p, a{overflow-wrap:anywhere}
+  .card{background:var(--card); border-radius:16px; padding:30px 28px; box-shadow:0 2px 18px rgba(42,33,27,.10)}
+  h2{font-size:20px; margin:34px 0 10px; padding-top:20px; border-top:1px solid var(--line)}
+  p,li{color:#3F352D}
+  a{color:var(--accent)}
+  .lead{background:#FCE9E2; border-left:4px solid var(--accent); padding:14px 16px; border-radius:0 10px 10px 0; margin:0 0 6px}
+  .updated{color:var(--muted); font-size:13px; margin:0 0 6px}
+  footer{text-align:center; color:var(--muted); font-size:13px; padding:26px 18px 40px}
+
+  /*  Thanh chọn ngôn ngữ chỉ có tác dụng khi có JavaScript nên mặc định ẩn.
+      Không có JS thì cả năm bản vẫn nằm nguyên trong trang, cuộn xuống là đọc
+      được — nội dung không bao giờ biến mất vì script không chạy.  */
+  .tabs{display:none; flex-wrap:wrap; gap:8px; justify-content:center; margin:0 0 22px}
+  .js .tabs{display:flex}
+  .tab{font:inherit; font-size:14px; font-weight:600; cursor:pointer; padding:8px 14px;
+    border-radius:999px; border:1px solid var(--line); background:#fff; color:#4A3F37}
+  .tab:hover{border-color:var(--accent)}
+  .tab.on{background:#FCE9E2; border-color:var(--accent); color:var(--ink)}
+  .tab:focus-visible{outline:3px solid var(--accent); outline-offset:2px}
+  .policy + .policy{border-top:1px solid var(--line); margin-top:36px; padding-top:10px}
+  .js .policy + .policy{border-top:0; margin-top:0; padding-top:0}
+  [hidden]{display:none !important}
+</style>
+</head>
+<body>
+
+<header>
+  <svg viewBox="0 0 100 100" aria-hidden="true">
+    <rect width="100" height="100" rx="24" fill="#E06A4A" stroke="#FFFFFF" stroke-opacity=".5" stroke-width="2.5"/>
+    <rect x="19" y="19" width="17.5" height="17.5" rx="4" fill="#FBF6EF"/><rect x="39.6" y="19" width="17.5" height="17.5" rx="4" fill="#F0B140"/><rect x="60.2" y="19" width="17.5" height="17.5" rx="4" fill="#FBF6EF"/><rect x="19" y="39.6" width="17.5" height="17.5" rx="4" fill="#F0B140"/><rect x="39.6" y="39.6" width="17.5" height="17.5" rx="4" fill="#3F8F7C"/><rect x="60.2" y="39.6" width="17.5" height="17.5" rx="4" fill="#F0B140"/><rect x="19" y="60.2" width="17.5" height="17.5" rx="4" fill="#FBF6EF"/><rect x="39.6" y="60.2" width="17.5" height="17.5" rx="4" fill="#F0B140"/><rect x="60.2" y="60.2" width="17.5" height="17.5" rx="4" fill="#FBF6EF"/>
+    <path d="M86 84V20q0-7-6-7q-4.5 0-4.5 4.5" stroke="#2A211B" stroke-width="6" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+  </svg>
+  <h1>Crochet Pix</h1>
+  <p>Privacy Policy &amp; Pro Terms</p>
+</header>
+
+<main>
+<div class="card">
+
+  <div class="tabs">
+    <button type="button" class="tab" data-lang="en">🇬🇧 English</button>
+    <button type="button" class="tab" data-lang="vi">🇻🇳 Tiếng Việt</button>
+    <button type="button" class="tab" data-lang="es">🇪🇸 Español</button>
+    <button type="button" class="tab" data-lang="pt">🇧🇷 Português</button>
+    <button type="button" class="tab" data-lang="id">🇮🇩 Bahasa Indonesia</button>
+  </div>
+
+  <section class="policy" data-lang="en" lang="en">
+    <p class="updated">Last updated: 14 October 2026</p>
+    <p class="lead">Crochet Pix (by TieChan Software) turns a photo into a crochet chart on your phone. We do not ask you to create an account, and we do not collect your name, email address, phone number or location. Google AdMob, which shows the ads, does collect some data — see Advertising below.</p>
+    <h2>Your photos stay on your phone</h2>
+    <p>You choose a photo with the system photo picker (the app cannot see your other photos) or take one with the camera. Selecting the subject, removing the background and building the chart all happen on your device. Background removal uses Google ML Kit, which runs on your phone; its model is downloaded once through Google Play services, and your photo is never uploaded to us or to anyone else.</p>
+    <h2>Data stored on your device</h2>
+    <p>For each chart you create, the app keeps the chart itself, your progress (the row you are on) and a small copy of the area you selected, so you can adjust the chart later. It also remembers your language, units and settings. All of this is saved only in the app's private storage on your phone. A PDF or chart image is written to your phone's Download or Pictures folder only when you tap Save. Deleting a project deletes its copy immediately; uninstalling the app deletes everything. We never receive a copy.</p>
+    <h2>Permissions</h2>
+    <p>Camera: to take a photo you want to turn into a chart. Storage (only on Android 9 and older): to save a PDF or chart image to your phone.</p>
+    <h2>Purchases</h2>
+    <p>Crochet Pix Pro is sold through Google Play. Payment is handled entirely by Google Play; we never see your card, wallet or bank details. Google Play tells the app which Pro product your Google account owns, so the app can turn Pro on and restore it after you reinstall.</p>
+    <h2>Advertising</h2>
+    <p>The free version shows ads through Google AdMob: a banner at the bottom of some screens, a full-screen ad after you create a chart (never while you are crocheting), and a short ad you can choose to watch to unlock a large chart or to save a PDF. Pro removes all ads. To serve ads, Google may collect your device's advertising ID and technical information about your device. This is handled by Google, not by us. You can reset or delete your advertising ID in Android Settings → Privacy → Ads. Google's policy: <a href="https://policies.google.com/technologies/ads">https://policies.google.com/technologies/ads</a></p>
+    <h2>What Google may collect</h2>
+    <p>An advertising identifier and app set ID (resettable IDs, not your name); your IP address, used to estimate your approximate location; app interactions, such as app launches, taps and ad views; and diagnostic and device information, such as device type, operating system version, app launch time and hang rate. Google uses this data to show and measure ads, for analytics and to prevent fraud, and it is sent over encrypted connections.</p>
+    <h2>Users in Europe</h2>
+    <p>If you are in the European Economic Area, the UK or Switzerland, the app first asks for your consent (using Google's consent form) before your data is used for personalised ads. You can change your choice at any time in Settings → Ad privacy options. If you do not consent, you may still see ads, but they will not be personalised.</p>
+    <h2>Data security</h2>
+    <p>Crochet Pix has no server and no account, so we never receive or store your photos or your data anywhere. Your charts and settings are kept in the app's private storage on your device, which other apps cannot read. The advertising data described above is collected and sent by Google's AdMob SDK over encrypted (HTTPS) connections and handled under Google's own privacy policy.</p>
+    <h2>Data retention and deletion</h2>
+    <p>Your charts stay on your device until you delete them in the app, clear the app's data or uninstall the app; each of these deletes them immediately. Files you saved to Download or Pictures stay there until you delete them. We hold no copy that would need deleting.</p>
+    <h2>Crochet Pix Pro terms</h2>
+    <p>Pro is offered as a monthly subscription or a one-time lifetime purchase. The monthly subscription renews automatically each month through Google Play until you cancel it in Google Play → Payments &amp; subscriptions → Subscriptions; cancelling stops the next renewal and Pro stays on until the end of the period you paid for. The lifetime purchase is a one-time payment that unlocks Pro for as long as the app is offered, on the Google account that bought it. Refunds follow Google Play's refund policy. We may change the price of the subscription in the future; Google Play will notify you in advance as its rules require, and a price increase never applies to a period you have already paid for. Chart sizes are estimates — real size depends on your yarn, hook and tension.</p>
+    <h2>Children</h2>
+    <p>This app is rated for users 13 and older and is not directed at children.</p>
+    <h2>Changes</h2>
+    <p>If this policy changes, we will update this page and the date above.</p>
+    <h2>Contact</h2>
+    <p>leductien1997123@gmail.com</p>
+  </section>
+
+  <section class="policy" data-lang="vi" lang="vi">
+    <p class="updated">Cập nhật: 14/10/2026</p>
+    <p class="lead">Crochet Pix (của TieChan Software) biến một tấm ảnh thành chart móc len ngay trên điện thoại của bạn. Chúng tôi không yêu cầu bạn tạo tài khoản và không thu thập tên, email, số điện thoại hay vị trí của bạn. Riêng Google AdMob (bên hiện quảng cáo) có thu thập một số dữ liệu — xem mục Quảng cáo bên dưới.</p>
+    <h2>Ảnh của bạn chỉ nằm trên máy bạn</h2>
+    <p>Bạn chọn ảnh bằng bộ chọn ảnh của hệ thống (ứng dụng không thấy được các ảnh khác của bạn) hoặc chụp bằng máy ảnh. Việc khoanh vùng, tách nền và dựng chart đều làm ngay trên điện thoại. Tách nền dùng Google ML Kit chạy trên máy bạn; mẫu AI của nó được tải về một lần qua Google Play services, và ảnh của bạn không bao giờ được tải lên cho chúng tôi hay bất kỳ ai.</p>
+    <h2>Dữ liệu lưu trong máy bạn</h2>
+    <p>Với mỗi chart bạn tạo, ứng dụng giữ chính chart đó, tiến độ móc (hàng bạn đang làm) và một bản nhỏ của vùng bạn đã khoanh, để bạn chỉnh lại chart sau này. Ứng dụng cũng nhớ ngôn ngữ, đơn vị và các cài đặt của bạn. Tất cả chỉ được lưu trong vùng lưu trữ riêng của ứng dụng trên điện thoại. File PDF hay ảnh chart chỉ được ghi vào thư mục Download hoặc Pictures của máy khi bạn bấm Lưu. Xoá một dự án là xoá ngay bản sao của nó; gỡ ứng dụng là xoá hết. Chúng tôi không nhận được bản sao nào.</p>
+    <h2>Quyền truy cập</h2>
+    <p>Máy ảnh: để chụp tấm ảnh bạn muốn biến thành chart. Bộ nhớ (chỉ trên Android 9 trở xuống): để lưu PDF hoặc ảnh chart vào máy.</p>
+    <h2>Mua hàng</h2>
+    <p>Crochet Pix Pro được bán qua Google Play. Việc thanh toán do Google Play lo hoàn toàn; chúng tôi không bao giờ thấy thông tin thẻ, ví hay tài khoản ngân hàng của bạn. Google Play cho ứng dụng biết tài khoản Google của bạn đang có gói Pro nào, để ứng dụng bật Pro và khôi phục lại khi bạn cài lại.</p>
+    <h2>Quảng cáo</h2>
+    <p>Bản miễn phí hiện quảng cáo qua Google AdMob: banner ở đáy một số màn, một quảng cáo toàn màn hình sau khi bạn tạo chart (không bao giờ trong lúc bạn đang móc), và một quảng cáo ngắn bạn có thể chọn xem để mở chart cỡ lớn hoặc lưu PDF. Gói Pro bỏ hết quảng cáo. Để phục vụ quảng cáo, Google có thể thu thập mã quảng cáo của thiết bị và thông tin kỹ thuật về máy. Phần này do Google xử lý, không phải chúng tôi. Bạn có thể đặt lại hoặc xoá mã quảng cáo trong Cài đặt Android → Quyền riêng tư → Quảng cáo. Chính sách của Google: <a href="https://policies.google.com/technologies/ads">https://policies.google.com/technologies/ads</a></p>
+    <h2>Google có thể thu thập gì</h2>
+    <p>Mã nhận dạng quảng cáo và mã nhóm ứng dụng (mã đặt lại được, không phải tên bạn); địa chỉ IP, dùng để đoán vị trí gần đúng của bạn; tương tác với ứng dụng, như lượt mở ứng dụng, lượt chạm và lượt xem quảng cáo; và thông tin chẩn đoán và thiết bị, như loại máy, phiên bản hệ điều hành, thời gian mở ứng dụng và tình trạng treo. Google dùng dữ liệu này để hiện và đo lường quảng cáo, để phân tích và để chống gian lận; dữ liệu được gửi qua kết nối mã hoá.</p>
+    <h2>Người dùng ở châu Âu</h2>
+    <p>Nếu bạn ở Khu vực Kinh tế Châu Âu, Vương quốc Anh hoặc Thuỵ Sĩ, ứng dụng sẽ hỏi bạn đồng ý trước (bằng bảng hỏi của Google) rồi mới dùng dữ liệu cho quảng cáo cá nhân hoá. Bạn có thể đổi lựa chọn bất cứ lúc nào trong Cài đặt → Tuỳ chọn quyền riêng tư quảng cáo. Nếu bạn không đồng ý, bạn vẫn có thể thấy quảng cáo nhưng không được cá nhân hoá.</p>
+    <h2>Bảo mật dữ liệu</h2>
+    <p>Crochet Pix không có máy chủ và không có tài khoản, nên chúng tôi không bao giờ nhận hay lưu ảnh và dữ liệu của bạn ở bất kỳ đâu. Chart và cài đặt nằm trong vùng lưu trữ riêng của ứng dụng trên máy bạn, ứng dụng khác không đọc được. Dữ liệu quảng cáo nói ở trên do bộ AdMob của Google thu thập và gửi qua kết nối mã hoá (HTTPS), và được xử lý theo chính sách quyền riêng tư của Google.</p>
+    <h2>Thời gian lưu và cách xoá</h2>
+    <p>Chart của bạn nằm trên máy cho tới khi bạn xoá trong ứng dụng, xoá dữ liệu ứng dụng hoặc gỡ ứng dụng; làm cách nào cũng xoá ngay. File bạn đã lưu vào Download hoặc Pictures nằm đó cho tới khi bạn tự xoá. Chúng tôi không giữ bản sao nào cần xoá.</p>
+    <h2>Điều khoản Crochet Pix Pro</h2>
+    <p>Pro có dạng gói đăng ký theo tháng hoặc mua một lần trọn đời. Gói tháng tự gia hạn mỗi tháng qua Google Play cho tới khi bạn huỷ trong Google Play → Thanh toán và gói đăng ký → Gói đăng ký; huỷ là dừng lần gia hạn kế tiếp, Pro vẫn bật tới hết kỳ bạn đã trả. Gói trọn đời là trả một lần, mở Pro chừng nào ứng dụng còn được cung cấp, trên tài khoản Google đã mua. Hoàn tiền theo chính sách hoàn tiền của Google Play. Chúng tôi có thể đổi giá gói đăng ký trong tương lai; Google Play sẽ báo trước cho bạn theo quy định của họ, và việc tăng giá không bao giờ áp vào kỳ bạn đã trả. Kích thước chart chỉ là ước lượng — cỡ thật tuỳ len, kim và tay móc của bạn.</p>
+    <h2>Trẻ em</h2>
+    <p>Ứng dụng dành cho người dùng từ 13 tuổi trở lên và không nhắm tới trẻ em.</p>
+    <h2>Thay đổi</h2>
+    <p>Nếu chính sách này thay đổi, chúng tôi sẽ cập nhật trang này và ngày ở trên.</p>
+    <h2>Liên hệ</h2>
+    <p>leductien1997123@gmail.com</p>
+  </section>
+
+  <section class="policy" data-lang="es" lang="es">
+    <p class="updated">Última actualización: 14 de octubre de 2026</p>
+    <p class="lead">Crochet Pix (de TieChan Software) convierte una foto en un patrón de ganchillo en tu teléfono. No te pedimos crear una cuenta y no recogemos tu nombre, correo electrónico, número de teléfono ni ubicación. Google AdMob, que muestra los anuncios, sí recoge algunos datos: consulta Publicidad más abajo.</p>
+    <h2>Tus fotos se quedan en tu teléfono</h2>
+    <p>Eliges una foto con el selector de fotos del sistema (la app no puede ver tus otras fotos) o haces una con la cámara. Seleccionar el motivo, quitar el fondo y crear el gráfico se hace en tu dispositivo. Para quitar el fondo se usa Google ML Kit, que funciona en tu teléfono; su modelo se descarga una vez a través de los servicios de Google Play, y tu foto nunca se sube ni a nosotros ni a nadie.</p>
+    <h2>Datos guardados en tu dispositivo</h2>
+    <p>Por cada gráfico que creas, la app guarda el propio gráfico, tu avance (la fila en la que vas) y una copia pequeña de la zona que seleccionaste, para que puedas ajustar el gráfico más tarde. También recuerda tu idioma, tus unidades y tus ajustes. Todo se guarda solo en el almacenamiento privado de la app en tu teléfono. Un PDF o una imagen del gráfico se escribe en la carpeta Download o Pictures del teléfono solo cuando pulsas Guardar. Eliminar un proyecto borra su copia al instante; desinstalar la app lo borra todo. Nunca recibimos una copia.</p>
+    <h2>Permisos</h2>
+    <p>Cámara: para hacer la foto que quieres convertir en gráfico. Almacenamiento (solo en Android 9 o anterior): para guardar un PDF o una imagen del gráfico en el teléfono.</p>
+    <h2>Compras</h2>
+    <p>Crochet Pix Pro se vende a través de Google Play. Google Play gestiona todo el pago; nunca vemos los datos de tu tarjeta, monedero o banco. Google Play le indica a la app qué producto Pro tiene tu cuenta de Google, para que la app active Pro y lo restaure si la reinstalas.</p>
+    <h2>Publicidad</h2>
+    <p>La versión gratuita muestra anuncios mediante Google AdMob: un banner en la parte inferior de algunas pantallas, un anuncio a pantalla completa después de crear un gráfico (nunca mientras tejes) y un anuncio breve que puedes elegir ver para desbloquear un gráfico grande o guardar un PDF. Pro elimina todos los anuncios. Para mostrar anuncios, Google puede recoger el identificador de publicidad de tu dispositivo e información técnica sobre él. Esto lo gestiona Google, no nosotros. Puedes restablecer o eliminar tu identificador de publicidad en Ajustes de Android → Privacidad → Anuncios. Política de Google: <a href="https://policies.google.com/technologies/ads">https://policies.google.com/technologies/ads</a></p>
+    <h2>Qué puede recoger Google</h2>
+    <p>Un identificador de publicidad y un ID de conjunto de apps (identificadores que puedes restablecer, no tu nombre); tu dirección IP, usada para estimar tu ubicación aproximada; interacciones con la app, como aperturas, toques y anuncios vistos; e información de diagnóstico y del dispositivo, como el tipo de dispositivo, la versión del sistema operativo, el tiempo de apertura de la app y la tasa de bloqueos. Google usa estos datos para mostrar y medir anuncios, para análisis y para prevenir el fraude, y se envían mediante conexiones cifradas.</p>
+    <h2>Usuarios en Europa</h2>
+    <p>Si estás en el Espacio Económico Europeo, el Reino Unido o Suiza, la app primero te pide tu consentimiento (con el formulario de Google) antes de usar tus datos para anuncios personalizados. Puedes cambiar tu elección en cualquier momento en Ajustes → Opciones de privacidad de anuncios. Si no das tu consentimiento, puedes seguir viendo anuncios, pero no serán personalizados.</p>
+    <h2>Seguridad de los datos</h2>
+    <p>Crochet Pix no tiene servidor ni cuentas, así que nunca recibimos ni guardamos tus fotos ni tus datos en ningún sitio. Tus gráficos y ajustes se guardan en el almacenamiento privado de la app en tu dispositivo, que otras apps no pueden leer. Los datos de publicidad descritos arriba los recoge y envía el SDK de AdMob de Google mediante conexiones cifradas (HTTPS) y se tratan según la política de privacidad de Google.</p>
+    <h2>Conservación y eliminación de datos</h2>
+    <p>Tus gráficos se quedan en tu dispositivo hasta que los eliminas en la app, borras los datos de la app o la desinstalas; cualquiera de estas acciones los borra al instante. Los archivos que guardaste en Download o Pictures se quedan allí hasta que los borres. No guardamos ninguna copia que haya que borrar.</p>
+    <h2>Condiciones de Crochet Pix Pro</h2>
+    <p>Pro se ofrece como suscripción mensual o como compra única de por vida. La suscripción mensual se renueva automáticamente cada mes a través de Google Play hasta que la canceles en Google Play → Pagos y suscripciones → Suscripciones; al cancelar se detiene la siguiente renovación y Pro sigue activo hasta el final del periodo que pagaste. La compra de por vida es un pago único que desbloquea Pro mientras se ofrezca la app, en la cuenta de Google que lo compró. Los reembolsos siguen la política de reembolsos de Google Play. Podemos cambiar el precio de la suscripción en el futuro; Google Play te avisará con antelación según sus normas, y una subida de precio nunca se aplica a un periodo que ya hayas pagado. Los tamaños de los gráficos son estimaciones: el tamaño real depende de tu lana, tu ganchillo y tu tensión.</p>
+    <h2>Menores</h2>
+    <p>Esta app está clasificada para usuarios de 13 años o más y no está dirigida a niños.</p>
+    <h2>Cambios</h2>
+    <p>Si esta política cambia, actualizaremos esta página y la fecha de arriba.</p>
+    <h2>Contacto</h2>
+    <p>leductien1997123@gmail.com</p>
+  </section>
+
+  <section class="policy" data-lang="pt" lang="pt">
+    <p class="updated">Última atualização: 14 de outubro de 2026</p>
+    <p class="lead">O Crochet Pix (da TieChan Software) transforma uma foto em um gráfico de crochê no seu celular. Não pedimos que você crie uma conta e não coletamos seu nome, e-mail, número de telefone nem localização. O Google AdMob, que exibe os anúncios, coleta alguns dados — veja Publicidade abaixo.</p>
+    <h2>Suas fotos ficam no seu celular</h2>
+    <p>Você escolhe uma foto pelo seletor de fotos do sistema (o app não consegue ver suas outras fotos) ou tira uma com a câmera. Selecionar o motivo, remover o fundo e montar o gráfico acontece no seu aparelho. A remoção do fundo usa o Google ML Kit, que roda no seu celular; o modelo dele é baixado uma vez pelos serviços do Google Play, e sua foto nunca é enviada para nós nem para ninguém.</p>
+    <h2>Dados guardados no seu aparelho</h2>
+    <p>Para cada gráfico que você cria, o app guarda o próprio gráfico, seu progresso (a carreira em que você está) e uma cópia pequena da área que você selecionou, para você poder ajustar o gráfico depois. Ele também lembra seu idioma, suas unidades e suas configurações. Tudo fica salvo apenas no armazenamento privado do app no seu celular. Um PDF ou imagem do gráfico só é gravado na pasta Download ou Pictures do celular quando você toca em Salvar. Excluir um projeto apaga a cópia dele na hora; desinstalar o app apaga tudo. Nunca recebemos uma cópia.</p>
+    <h2>Permissões</h2>
+    <p>Câmera: para tirar a foto que você quer transformar em gráfico. Armazenamento (só no Android 9 ou anterior): para salvar um PDF ou imagem do gráfico no celular.</p>
+    <h2>Compras</h2>
+    <p>O Crochet Pix Pro é vendido pelo Google Play. O pagamento é feito inteiramente pelo Google Play; nunca vemos os dados do seu cartão, carteira digital ou banco. O Google Play informa ao app qual produto Pro a sua conta do Google possui, para que o app ative o Pro e o restaure quando você reinstalar.</p>
+    <h2>Publicidade</h2>
+    <p>A versão gratuita exibe anúncios pelo Google AdMob: um banner na parte de baixo de algumas telas, um anúncio em tela cheia depois que você cria um gráfico (nunca enquanto você está crochetando) e um anúncio curto que você pode escolher assistir para liberar um gráfico grande ou salvar um PDF. O Pro remove todos os anúncios. Para exibir anúncios, o Google pode coletar o ID de publicidade do seu aparelho e informações técnicas sobre ele. Isso é feito pelo Google, não por nós. Você pode redefinir ou excluir seu ID de publicidade em Configurações do Android → Privacidade → Anúncios. Política do Google: <a href="https://policies.google.com/technologies/ads">https://policies.google.com/technologies/ads</a></p>
+    <h2>O que o Google pode coletar</h2>
+    <p>Um identificador de publicidade e um ID do conjunto de apps (identificadores que podem ser redefinidos, não o seu nome); seu endereço IP, usado para estimar sua localização aproximada; interações com o app, como aberturas, toques e anúncios vistos; e informações de diagnóstico e do aparelho, como o tipo de aparelho, a versão do sistema operacional, o tempo de abertura do app e a taxa de travamentos. O Google usa esses dados para exibir e medir anúncios, para análises e para evitar fraudes, e eles são enviados por conexões criptografadas.</p>
+    <h2>Usuários na Europa</h2>
+    <p>Se você está no Espaço Econômico Europeu, no Reino Unido ou na Suíça, o app primeiro pede o seu consentimento (com o formulário do Google) antes de usar seus dados para anúncios personalizados. Você pode mudar sua escolha a qualquer momento em Configurações → Opções de privacidade dos anúncios. Se você não consentir, ainda poderá ver anúncios, mas eles não serão personalizados.</p>
+    <h2>Segurança dos dados</h2>
+    <p>O Crochet Pix não tem servidor nem contas, então nunca recebemos nem guardamos suas fotos ou seus dados em lugar nenhum. Seus gráficos e configurações ficam no armazenamento privado do app no seu aparelho, que outros apps não conseguem ler. Os dados de publicidade descritos acima são coletados e enviados pelo SDK do AdMob do Google por conexões criptografadas (HTTPS) e tratados conforme a política de privacidade do Google.</p>
+    <h2>Retenção e exclusão de dados</h2>
+    <p>Seus gráficos ficam no seu aparelho até você excluí-los no app, limpar os dados do app ou desinstalá-lo; qualquer uma dessas ações os apaga na hora. Os arquivos que você salvou em Download ou Pictures ficam lá até você apagá-los. Não guardamos nenhuma cópia que precise ser apagada.</p>
+    <h2>Termos do Crochet Pix Pro</h2>
+    <p>O Pro é oferecido como assinatura mensal ou como compra única vitalícia. A assinatura mensal é renovada automaticamente todo mês pelo Google Play até você cancelá-la em Google Play → Pagamentos e assinaturas → Assinaturas; ao cancelar, a próxima renovação é interrompida e o Pro continua ativo até o fim do período pago. A compra vitalícia é um pagamento único que libera o Pro enquanto o app for oferecido, na conta do Google que fez a compra. Reembolsos seguem a política de reembolso do Google Play. Podemos mudar o preço da assinatura no futuro; o Google Play avisará você com antecedência conforme as regras dele, e um aumento de preço nunca vale para um período que você já pagou. Os tamanhos dos gráficos são estimativas — o tamanho real depende da sua linha, da sua agulha e da sua tensão.</p>
+    <h2>Crianças</h2>
+    <p>Este app é classificado para usuários a partir de 13 anos e não é direcionado a crianças.</p>
+    <h2>Alterações</h2>
+    <p>Se esta política mudar, atualizaremos esta página e a data acima.</p>
+    <h2>Contato</h2>
+    <p>leductien1997123@gmail.com</p>
+  </section>
+
+  <section class="policy" data-lang="id" lang="id">
+    <p class="updated">Terakhir diperbarui: 14 Oktober 2026</p>
+    <p class="lead">Crochet Pix (dari TieChan Software) mengubah foto menjadi pola rajut di HP kamu. Kami tidak memintamu membuat akun dan tidak mengumpulkan nama, email, nomor telepon, atau lokasimu. Google AdMob, yang menampilkan iklan, memang mengumpulkan sebagian data — lihat Iklan di bawah.</p>
+    <h2>Fotomu tetap di HP-mu</h2>
+    <p>Kamu memilih foto lewat pemilih foto sistem (aplikasi tidak bisa melihat foto lainnya) atau memotret dengan kamera. Memilih objek, menghapus latar, dan menyusun pola semuanya dilakukan di perangkatmu. Penghapusan latar memakai Google ML Kit yang berjalan di HP-mu; modelnya diunduh sekali lewat layanan Google Play, dan fotomu tidak pernah diunggah ke kami atau siapa pun.</p>
+    <h2>Data yang disimpan di perangkatmu</h2>
+    <p>Untuk setiap pola yang kamu buat, aplikasi menyimpan pola itu sendiri, progresmu (baris yang sedang dirajut), dan salinan kecil dari area yang kamu pilih, supaya kamu bisa mengatur ulang pola nanti. Aplikasi juga mengingat bahasa, satuan, dan pengaturanmu. Semuanya hanya disimpan di penyimpanan pribadi aplikasi di HP-mu. File PDF atau gambar pola hanya ditulis ke folder Download atau Pictures di HP saat kamu mengetuk Simpan. Menghapus proyek langsung menghapus salinannya; mencopot aplikasi menghapus semuanya. Kami tidak pernah menerima salinannya.</p>
+    <h2>Izin</h2>
+    <p>Kamera: untuk memotret foto yang ingin kamu ubah menjadi pola. Penyimpanan (hanya di Android 9 ke bawah): untuk menyimpan PDF atau gambar pola ke HP.</p>
+    <h2>Pembelian</h2>
+    <p>Crochet Pix Pro dijual lewat Google Play. Pembayaran sepenuhnya ditangani Google Play; kami tidak pernah melihat data kartu, dompet digital, atau rekening bankmu. Google Play memberi tahu aplikasi produk Pro mana yang dimiliki akun Google-mu, supaya aplikasi bisa mengaktifkan Pro dan memulihkannya saat kamu memasang ulang.</p>
+    <h2>Iklan</h2>
+    <p>Versi gratis menampilkan iklan lewat Google AdMob: banner di bagian bawah beberapa layar, iklan layar penuh setelah kamu membuat pola (tidak pernah saat kamu sedang merajut), dan iklan singkat yang bisa kamu pilih untuk ditonton agar bisa membuka pola berukuran besar atau menyimpan PDF. Pro menghapus semua iklan. Untuk menayangkan iklan, Google dapat mengumpulkan ID iklan perangkatmu dan informasi teknis tentang perangkat. Ini ditangani oleh Google, bukan kami. Kamu bisa mereset atau menghapus ID iklan di Setelan Android → Privasi → Iklan. Kebijakan Google: <a href="https://policies.google.com/technologies/ads">https://policies.google.com/technologies/ads</a></p>
+    <h2>Apa yang mungkin dikumpulkan Google</h2>
+    <p>ID iklan dan ID set aplikasi (ID yang bisa direset, bukan namamu); alamat IP-mu, dipakai untuk memperkirakan lokasi kasarmu; interaksi dengan aplikasi, seperti membuka aplikasi, ketukan, dan iklan yang dilihat; serta informasi diagnostik dan perangkat, seperti jenis perangkat, versi sistem operasi, waktu buka aplikasi, dan tingkat macet. Google memakai data ini untuk menampilkan dan mengukur iklan, untuk analitik, dan untuk mencegah penipuan, dan data dikirim lewat koneksi terenkripsi.</p>
+    <h2>Pengguna di Eropa</h2>
+    <p>Jika kamu berada di Kawasan Ekonomi Eropa, Inggris, atau Swiss, aplikasi akan meminta persetujuanmu terlebih dahulu (dengan formulir dari Google) sebelum datamu dipakai untuk iklan yang dipersonalisasi. Kamu bisa mengubah pilihan kapan saja di Pengaturan → Opsi privasi iklan. Jika kamu tidak setuju, kamu tetap bisa melihat iklan, tetapi tidak dipersonalisasi.</p>
+    <h2>Keamanan data</h2>
+    <p>Crochet Pix tidak punya server dan tidak memakai akun, jadi kami tidak pernah menerima atau menyimpan foto dan datamu di mana pun. Pola dan pengaturanmu disimpan di penyimpanan pribadi aplikasi di perangkatmu, yang tidak bisa dibaca aplikasi lain. Data iklan yang dijelaskan di atas dikumpulkan dan dikirim oleh SDK AdMob milik Google lewat koneksi terenkripsi (HTTPS) dan diproses sesuai kebijakan privasi Google.</p>
+    <h2>Penyimpanan dan penghapusan data</h2>
+    <p>Polamu tetap ada di perangkat sampai kamu menghapusnya di aplikasi, menghapus data aplikasi, atau mencopot aplikasi; cara mana pun langsung menghapusnya. File yang kamu simpan ke Download atau Pictures tetap di sana sampai kamu menghapusnya. Kami tidak menyimpan salinan apa pun yang perlu dihapus.</p>
+    <h2>Ketentuan Crochet Pix Pro</h2>
+    <p>Pro tersedia sebagai langganan bulanan atau pembelian sekali seumur hidup. Langganan bulanan diperpanjang otomatis setiap bulan lewat Google Play sampai kamu membatalkannya di Google Play → Pembayaran &amp; langganan → Langganan; membatalkan menghentikan perpanjangan berikutnya dan Pro tetap aktif sampai akhir periode yang sudah kamu bayar. Pembelian seumur hidup adalah pembayaran sekali yang membuka Pro selama aplikasi masih tersedia, di akun Google yang membelinya. Pengembalian dana mengikuti kebijakan pengembalian dana Google Play. Kami dapat mengubah harga langganan di masa mendatang; Google Play akan memberitahumu lebih dulu sesuai aturannya, dan kenaikan harga tidak pernah berlaku untuk periode yang sudah kamu bayar. Ukuran pola hanya perkiraan — ukuran sebenarnya tergantung benang, hakpen, dan kekencangan rajutanmu.</p>
+    <h2>Anak-anak</h2>
+    <p>Aplikasi ini ditujukan untuk pengguna berusia 13 tahun ke atas dan tidak ditujukan untuk anak-anak.</p>
+    <h2>Perubahan</h2>
+    <p>Jika kebijakan ini berubah, kami akan memperbarui halaman ini dan tanggal di atas.</p>
+    <h2>Kontak</h2>
+    <p>leductien1997123@gmail.com</p>
+  </section>
+
+</div>
+</main>
+
+<footer>Crochet Pix · com.tien.crochetpix · by TieChan Software</footer>
+
+<script>
+(function () {
+  var LANGS = ['en', 'vi', 'es', 'pt', 'id'];
+
+  function show(lang) {
+    document.querySelectorAll('.policy').forEach(function (p) {
+      p.hidden = p.getAttribute('data-lang') !== lang;
+    });
+    document.querySelectorAll('.tab').forEach(function (n) {
+      n.classList.toggle('on', n.getAttribute('data-lang') === lang);
+    });
+    document.documentElement.lang = lang;
+    try { history.replaceState(null, '', '#' + lang); } catch (e) {}
+  }
+
+  //  Bật thanh chọn TRƯỚC, ẩn nội dung SAU. Đảo thứ tự mà đoạn dưới lỗi thì
+  //  trang trắng trơn: nội dung đã ẩn mà nút chuyển thì chưa hiện.
+  document.documentElement.className += ' js';
+
+  document.querySelectorAll('.tab').forEach(function (btn) {
+    btn.addEventListener('click', function () { show(btn.getAttribute('data-lang')); });
+  });
+
+  //  Ưu tiên phần neo trên URL (#vi) — app mở link kèm ngôn ngữ đang chọn;
+  //  không có thì lấy theo ngôn ngữ máy. 'in' là mã cũ của tiếng Indonesia.
+  var pick = (location.hash || '').replace('#', '');
+  if (LANGS.indexOf(pick) < 0) {
+    var device = (navigator.language || 'en').slice(0, 2).toLowerCase();
+    if (device === 'in') device = 'id';
+    pick = LANGS.indexOf(device) >= 0 ? device : 'en';
+  }
+  show(pick);
+})();
+</script>
+
+</body>
+</html>
